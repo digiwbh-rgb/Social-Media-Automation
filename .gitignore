@@ -1,2 +1,31 @@
 node_modules
 out
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Secrets & local config
+.env
+*.env.local
+~/.social_media_automation/tokens.json
+
+# DB files
+*.db
+*.db-shm
+*.db-wal
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
